@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @ykking2811
-- 👀 I’m interested in Arduino and coding and macking projects
+- 👀 I’m interested in Arduino and coding and making projects
 - 🌱 I’m currently learning Arduino coding and python
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me 
