@@ -49,6 +49,12 @@ I learn best by **building, breaking, debugging, and iterating**—whether that 
 ## 03 // GitHub Statistics & Activity
 
 <div align="center">
+  <img src="./assets/contribution-graph.svg" alt="ykking2811 Crimson Contribution Matrix" width="100%" />
+</div>
+
+<br />
+
+<div align="center">
   <table>
     <tr>
       <td align="center" width="50%">
