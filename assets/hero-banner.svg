@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="1200" height="360" role="img" aria-label="YK — Building things at the intersection of code and reality.">
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#18181B" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="crimsonWash" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#450A0A" stop-opacity="0.95"/>
+      <stop offset="65%" stop-color="#7F1D1D" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#09090B" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="crimsonBar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#DC2626"/>
+      <stop offset="60%" stop-color="#991B1B"/>
+      <stop offset="100%" stop-color="#991B1B" stop-opacity="0"/>
+    </linearGradient>
+    <style>
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+      .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+      .pulse-wave {
+        stroke-dasharray: 420;
+        stroke-dashoffset: 420;
+        animation: trace 4.5s cubic-bezier(0.22, 1, 0.36, 1) infinite;
+      }
+      .cursor-blink {
+        animation: blink 1.2s steps(2, start) infinite;
+      }
+      .reticle-spin {
+        transform-origin: 1030px 165px;
+        animation: subtleSpin 24s linear infinite;
+      }
+      @keyframes trace {
+        0% { stroke-dashoffset: 420; opacity: 0.35; }
+        55% { stroke-dashoffset: 0; opacity: 1; }
+        85% { stroke-dashoffset: 0; opacity: 0.85; }
+        100% { stroke-dashoffset: -420; opacity: 0.2; }
+      }
+      @keyframes blink {
+        0%, 49% { opacity: 1; }
+        50%, 100% { opacity: 0; }
+      }
+      @keyframes subtleSpin {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .pulse-wave, .cursor-blink, .reticle-spin {
+          animation: none !important;
+          stroke-dashoffset: 0 !important;
+          opacity: 1 !important;
+        }
+      }
+    </style>
+  </defs>
+
+  <!-- 60% Black Foundation -->
+  <rect width="1200" height="360" rx="12" fill="#09090B"/>
+  <rect width="1200" height="360" rx="12" fill="url(#grid)"/>
+
+  <!-- 25% Crimson Structural Zones -->
+  <path d="M 0 12 Q 0 0 12 0 L 310 0 L 235 360 L 12 360 Q 0 360 0 348 Z" fill="url(#crimsonWash)"/>
+  <rect x="0" y="0" width="8" height="360" rx="4" fill="#B91C1C"/>
+  <rect x="36" y="34" width="220" height="2" fill="url(#crimsonBar)"/>
+  <rect x="36" y="324" width="380" height="2" fill="url(#crimsonBar)"/>
+
+  <!-- Outer Architectural Border -->
+  <rect x="1" y="1" width="1198" height="358" rx="11" fill="none" stroke="#27272A" stroke-width="1.5"/>
+
+  <!-- Left Telemetry Bay -->
+  <text x="36" y="64" fill="#E4E4E7" font-size="11" font-weight="600" letter-spacing="2.4" class="mono">SYS.01 // CALIBRATION</text>
+  <text x="36" y="88" fill="#A1A1AA" font-size="11" letter-spacing="1.4" class="mono">NODE: YKKING2811</text>
+  <text x="36" y="108" fill="#A1A1AA" font-size="11" letter-spacing="1.4" class="mono">DOMAIN: CS · ROBOTICS · IOT</text>
+
+  <!-- Crimson Hardware Bus Graphic (Left Lower) -->
+  <g stroke="#B91C1C" stroke-width="1.25" fill="none">
+    <path d="M 36 250 L 90 250 L 112 228 L 190 228"/>
+    <path d="M 36 272 L 120 272 L 142 294 L 210 294"/>
+    <circle cx="190" cy="228" r="3.5" fill="#DC2626"/>
+    <circle cx="210" cy="294" r="3.5" fill="#991B1B"/>
+  </g>
+  <text x="36" y="308" fill="#DC2626" font-size="10" letter-spacing="2" class="mono">STATUS: ACTIVE BUILD</text>
+
+  <!-- Center-Right Primary Identity (15% Silver Typography) -->
+  <text x="330" y="112" fill="#DC2626" font-size="12" font-weight="600" letter-spacing="3" class="mono">ENGINEERING WORKSPACE</text>
+  <text x="328" y="182" fill="#E4E4E7" font-size="76" font-weight="800" letter-spacing="-2.5" class="sans">YK<tspan fill="#DC2626">.</tspan></text>
+  <rect x="444" y="132" width="3" height="50" fill="#DC2626" class="cursor-blink"/>
+
+  <text x="330" y="222" fill="#C8CCD4" font-size="20" font-weight="500" letter-spacing="-0.2" class="sans">Building things at the intersection of code and reality.</text>
+  <text x="330" y="256" fill="#A1A1AA" font-size="13.5" letter-spacing="0.2" class="sans">Computer Science &amp; Engineering Student · Embedded Systems · Robotics · AI</text>
+
+  <!-- Right Optical Reticle & Oscilloscope Telemetry -->
+  <g>
+    <circle cx="1030" cy="165" r="88" fill="#111115" stroke="#27272A" stroke-width="1.5"/>
+    <circle cx="1030" cy="165" r="72" fill="none" stroke="#7F1D1D" stroke-width="1" stroke-dasharray="6 6" class="reticle-spin"/>
+    <circle cx="1030" cy="165" r="50" fill="none" stroke="#991B1B" stroke-width="1.2"/>
+    <line x1="932" y1="165" x2="1128" y2="165" stroke="#27272A" stroke-width="1"/>
+    <line x1="1030" y1="67" x2="1030" y2="263" stroke="#27272A" stroke-width="1"/>
+    <!-- Oscilloscope Signal -->
+    <path d="M 950 165 L 980 165 L 992 132 L 1008 198 L 1022 145 L 1036 184 L 1048 165 L 1110 165" fill="none" stroke="#DC2626" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" class="pulse-wave"/>
+    <circle cx="1030" cy="165" r="3" fill="#E4E4E7"/>
+    <text x="1030" y="284" text-anchor="middle" fill="#A1A1AA" font-size="10" letter-spacing="2" class="mono">OPTICAL.RETICLE // 60·25·15</text>
+  </g>
+</svg>

@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="Technical Interests Matrix: Robotics, Embedded Systems, Software Development, AI, Creative Technology">
+  <defs>
+    <style>
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+      .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+    </style>
+  </defs>
+
+  <!-- 60% Black Ground -->
+  <rect width="1200" height="300" rx="10" fill="#09090B" stroke="#27272A" stroke-width="1.5"/>
+
+  <!-- Top Bus Line -->
+  <line x1="28" y1="32" x2="1172" y2="32" stroke="#27272A" stroke-width="1.2"/>
+  <rect x="28" y="29" width="180" height="6" rx="2" fill="#991B1B"/>
+  <text x="1172" y="24" text-anchor="end" fill="#A1A1AA" font-size="10" letter-spacing="2" class="mono">SYS.03 // DOMAIN ARCHITECTURE</text>
+
+  <!-- Card 01: Robotics & Automation -->
+  <g transform="translate(24, 52)">
+    <rect width="218" height="224" rx="8" fill="#111115" stroke="#27272A" stroke-width="1"/>
+    <rect width="218" height="36" rx="8" fill="#450A0A"/>
+    <rect y="28" width="218" height="8" fill="#450A0A"/>
+    <rect width="4" height="224" rx="2" fill="#B91C1C"/>
+    <text x="16" y="23" fill="#E4E4E7" font-size="11" font-weight="700" letter-spacing="1.6" class="mono">01 // ROBOTICS</text>
+    <text x="16" y="64" fill="#E4E4E7" font-size="13.5" font-weight="600" class="sans">Control &amp; Mobility</text>
+    <text x="16" y="92" fill="#A1A1AA" font-size="12" class="sans">• Autonomous &amp; RC Bots</text>
+    <text x="16" y="116" fill="#A1A1AA" font-size="12" class="sans">• Navigation &amp; Kinematics</text>
+    <text x="16" y="140" fill="#A1A1AA" font-size="12" class="sans">• Sensor Fusion &amp; Motors</text>
+    <text x="16" y="164" fill="#A1A1AA" font-size="12" class="sans">• ESP32 / Arduino Control</text>
+    <text x="16" y="188" fill="#A1A1AA" font-size="12" class="sans">• Wireless Telemetry</text>
+    <circle cx="198" cy="204" r="3" fill="#DC2626"/>
+  </g>
+
+  <!-- Card 02: Embedded & Electronics -->
+  <g transform="translate(258, 52)">
+    <rect width="218" height="224" rx="8" fill="#111115" stroke="#27272A" stroke-width="1"/>
+    <rect width="218" height="36" rx="8" fill="#450A0A"/>
+    <rect y="28" width="218" height="8" fill="#450A0A"/>
+    <rect width="4" height="224" rx="2" fill="#B91C1C"/>
+    <text x="16" y="23" fill="#E4E4E7" font-size="11" font-weight="700" letter-spacing="1.6" class="mono">02 // EMBEDDED</text>
+    <text x="16" y="64" fill="#E4E4E7" font-size="13.5" font-weight="600" class="sans">Hardware Systems</text>
+    <text x="16" y="92" fill="#A1A1AA" font-size="12" class="sans">• ESP32 · Arduino · RPi</text>
+    <text x="16" y="116" fill="#A1A1AA" font-size="12" class="sans">• NodeMCU &amp; Firmware</text>
+    <text x="16" y="140" fill="#A1A1AA" font-size="12" class="sans">• OLED UI &amp; I2C / SPI</text>
+    <text x="16" y="164" fill="#A1A1AA" font-size="12" class="sans">• Actuators &amp; Drivers</text>
+    <text x="16" y="188" fill="#A1A1AA" font-size="12" class="sans">• Circuit Prototyping</text>
+    <circle cx="198" cy="204" r="3" fill="#DC2626"/>
+  </g>
+
+  <!-- Card 03: Software Development -->
+  <g transform="translate(492, 52)">
+    <rect width="218" height="224" rx="8" fill="#111115" stroke="#27272A" stroke-width="1"/>
+    <rect width="218" height="36" rx="8" fill="#450A0A"/>
+    <rect y="28" width="218" height="8" fill="#450A0A"/>
+    <rect width="4" height="224" rx="2" fill="#B91C1C"/>
+    <text x="16" y="23" fill="#E4E4E7" font-size="11" font-weight="700" letter-spacing="1.6" class="mono">03 // SOFTWARE</text>
+    <text x="16" y="64" fill="#E4E4E7" font-size="13.5" font-weight="600" class="sans">Code &amp; Tooling</text>
+    <text x="16" y="92" fill="#A1A1AA" font-size="12" class="sans">• C / C++ &amp; Python</text>
+    <text x="16" y="116" fill="#A1A1AA" font-size="12" class="sans">• TypeScript &amp; JS</text>
+    <text x="16" y="140" fill="#A1A1AA" font-size="12" class="sans">• APIs &amp; System Glue</text>
+    <text x="16" y="164" fill="#A1A1AA" font-size="12" class="sans">• Problem Solving</text>
+    <text x="16" y="188" fill="#A1A1AA" font-size="12" class="sans">• Practical Architecture</text>
+    <circle cx="198" cy="204" r="3" fill="#DC2626"/>
+  </g>
+
+  <!-- Card 04: AI & Emerging Tech -->
+  <g transform="translate(726, 52)">
+    <rect width="218" height="224" rx="8" fill="#111115" stroke="#27272A" stroke-width="1"/>
+    <rect width="218" height="36" rx="8" fill="#450A0A"/>
+    <rect y="28" width="218" height="8" fill="#450A0A"/>
+    <rect width="4" height="224" rx="2" fill="#B91C1C"/>
+    <text x="16" y="23" fill="#E4E4E7" font-size="11" font-weight="700" letter-spacing="1.6" class="mono">04 // AI &amp; ML</text>
+    <text x="16" y="64" fill="#E4E4E7" font-size="13.5" font-weight="600" class="sans">Intelligent Systems</text>
+    <text x="16" y="92" fill="#A1A1AA" font-size="12" class="sans">• Applied ML Concepts</text>
+    <text x="16" y="116" fill="#A1A1AA" font-size="12" class="sans">• Intelligent Automation</text>
+    <text x="16" y="140" fill="#A1A1AA" font-size="12" class="sans">• AI-Powered Apps</text>
+    <text x="16" y="164" fill="#A1A1AA" font-size="12" class="sans">• Robotics + AI Fusion</text>
+    <text x="16" y="188" fill="#A1A1AA" font-size="12" class="sans">• Edge Experimentation</text>
+    <circle cx="198" cy="204" r="3" fill="#DC2626"/>
+  </g>
+
+  <!-- Card 05: Creative Technology -->
+  <g transform="translate(960, 52)">
+    <rect width="216" height="224" rx="8" fill="#111115" stroke="#27272A" stroke-width="1"/>
+    <rect width="216" height="36" rx="8" fill="#450A0A"/>
+    <rect y="28" width="216" height="8" fill="#450A0A"/>
+    <rect width="4" height="224" rx="2" fill="#B91C1C"/>
+    <text x="16" y="23" fill="#E4E4E7" font-size="11" font-weight="700" letter-spacing="1.6" class="mono">05 // CREATIVE</text>
+    <text x="16" y="64" fill="#E4E4E7" font-size="13.5" font-weight="600" class="sans">Design &amp; Media</text>
+    <text x="16" y="92" fill="#A1A1AA" font-size="12" class="sans">• UI / UX Craft</text>
+    <text x="16" y="116" fill="#A1A1AA" font-size="12" class="sans">• Photography &amp; Editing</text>
+    <text x="16" y="140" fill="#A1A1AA" font-size="12" class="sans">• Visual Identity</text>
+    <text x="16" y="164" fill="#A1A1AA" font-size="12" class="sans">• Tech Communication</text>
+    <text x="16" y="188" fill="#A1A1AA" font-size="12" class="sans">• YouTube &amp; Demos</text>
+    <circle cx="196" cy="204" r="3" fill="#DC2626"/>
+  </g>
+</svg>

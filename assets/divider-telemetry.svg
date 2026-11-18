@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 44" width="1200" height="44" role="img" aria-hidden="true">
+  <defs>
+    <style>
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+    </style>
+  </defs>
+  <rect width="1200" height="44" fill="#09090B"/>
+  <line x1="20" y1="22" x2="460" y2="22" stroke="#27272A" stroke-width="1.2"/>
+  <line x1="740" y1="22" x2="1180" y2="22" stroke="#27272A" stroke-width="1.2"/>
+  <path d="M 480 14 L 470 14 L 470 30 L 480 30" fill="none" stroke="#DC2626" stroke-width="1.5"/>
+  <path d="M 720 14 L 730 14 L 730 30 L 720 30" fill="none" stroke="#DC2626" stroke-width="1.5"/>
+  <text x="600" y="26" text-anchor="middle" fill="#A1A1AA" font-size="11" font-weight="600" letter-spacing="2.8" class="mono">TELEMETRY // OUTPUT</text>
+</svg>
